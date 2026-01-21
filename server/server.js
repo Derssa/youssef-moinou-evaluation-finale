@@ -13,3 +13,5 @@ app.use("/api/tasks", tasksRoutes);
 app.listen(process.env.PORT || 5000, () =>
   console.log("🚀 Backend lancé sur http://localhost:5000"),
 );
+
+export { app };
